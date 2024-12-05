@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="turn"></h1>
+        <div class="board"></div>
+            <div id="footer-container">
+                <button id="clearButton">Replay</button>
+                <button id="namesButton">Change names</button>
+            </div>
+            <form action="" method = "get" id = "nameForm">
+                <div class="inputContOne">
+                    <label for="playerOneName">Player One:</label>
+                    <input type="text" id="playerOneName" name="playerOneName">
+                </div>
+                <div class="inputContTwo">
+                    <label for="playerTwoName">Player Two:</label>
+                    <input type="text" id="playerTwoName" name="playerTwoName">
+                </div>
+
+                <div class="formButtons">
+                <button type="submit">Submit</button>
+                <button type="button" id="closeButton">Close</button>
+                </div>
+            </form>
+        
+    </div>
+     <script src="script.js"></script>
+</body>
+</html>
